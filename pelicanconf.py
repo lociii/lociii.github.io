@@ -2,7 +2,8 @@ AUTHOR = 'Jens'
 SITENAME = 'Random rants about tech and stuff'
 SITEURL = ''
 
-THEME = '/home/jens/pelican/themes/nest'
+THEME = 'nest'
+# PLUGIN_PATHS = ['pelican-plugins']
 
 PATH = 'content'
 

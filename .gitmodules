@@ -1,0 +1,6 @@
+[submodule "nest"]
+	path = nest
+	url = https://github.com/lociii/nest.git
+# [submodule "pelican-plugins"]
+# 	path = pelican-plugins
+# 	url = https://github.com/getpelican/pelican-plugins
