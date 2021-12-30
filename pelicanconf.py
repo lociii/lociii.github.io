@@ -6,6 +6,7 @@ THEME = 'nest'
 # PLUGIN_PATHS = ['pelican-plugins']
 
 PATH = 'content'
+ROBOTS = "index, follow"
 
 TIMEZONE = 'Europe/Berlin'
 
