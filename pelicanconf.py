@@ -7,7 +7,8 @@ THEME = 'nest'
 
 PATH = 'content'
 ROBOTS = "index, follow"
-
+USE_FOLDER_AS_CATEGORY = False
+TYPOGRIFY = True
 TIMEZONE = 'Europe/Berlin'
 
 DEFAULT_LANG = 'en'
