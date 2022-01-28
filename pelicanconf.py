@@ -1,15 +1,18 @@
 AUTHOR = 'Jens'
-SITENAME = 'Random rants about tech and stuff'
+SITENAME = 'Rants about tech, games and stuff'
 SITEURL = ''
 
 THEME = 'nest'
-# PLUGIN_PATHS = ['pelican-plugins']
+PLUGIN_PATHS = ['plugins']
 
 PATH = 'content'
 ROBOTS = "index, follow"
 USE_FOLDER_AS_CATEGORY = False
 TYPOGRIFY = True
 TIMEZONE = 'Europe/Berlin'
+
+PAGE_PATHS = ['pages']
+ARTICLE_PATHS = ['articles']
 
 DEFAULT_LANG = 'en'
 DEFAULT_CATEGORY = 'Main'
@@ -32,7 +35,7 @@ NEST_HEADER_IMAGES = 'header.jpg'
 # nest theme - header
 NEST_INDEX_CONTENT_TITLE = "Rants"
 NEST_INDEX_HEAD_TITLE = 'Homepage'
-NEST_INDEX_HEADER_TITLE = 'Random rants about tech and stuff'
+NEST_INDEX_HEADER_TITLE = 'Rants about tech, games and stuff'
 NEST_INDEX_HEADER_SUBTITLE = ''
 NEST_INDEX_SHOW_EXCERPT = True
 
@@ -45,9 +48,10 @@ NEST_ARTICLE_HEADER_IN = 'Filed under: '
 # nest theme - footer
 NEST_SITEMAP_COLUMN_TITLE = 'Sitemap'
 NEST_SITEMAP_MENU = [
-    ('CV', '/pages/cv/'),
-    ('About me', '/pages/about/'),
-    ('Contact', '/pages/contact/'),
+    ('CV', '/pages/cv.html'),
+    ('About me', '/pages/about.html'),
+    ('Legal', '/pages/legal.html'),
+    ('Privacy policy', '/pages/privacy.html'),
 ]
 
 NEST_SOCIAL_COLUMN_TITLE = 'Social'

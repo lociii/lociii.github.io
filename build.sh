@@ -1,4 +1,4 @@
 #!/usr/bin/bash
 
 pelican content -o output -s pelicanconf.py
-pelican --listen --port 9999
+pelican --autoreload --listen --port 9999
